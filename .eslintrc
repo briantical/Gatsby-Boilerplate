@@ -1,0 +1,32 @@
+{
+  "globals": {
+    "__PATH_PREFIX__": true
+  },
+  "extends": ["react-app", "react-app/jest", "airbnb", "prettier"],
+  "ignorePatterns": ["gatsby-browser.js", "gatsby-config.js", "gatsby-node.js"],
+  "plugins": ["prettier"],
+  "rules": {
+    "jsx-a11y/label-has-associated-control": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "react/jsx-filename-extension": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "no-nested-ternary": "off",
+    "react/prop-types": "off",
+    "camelcase": "off",
+    "no-plusplus": "off",
+    "react/no-array-index-key": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": [
+        ["@components", "./src/components"],
+        ["@layouts", "./src/layouts"],
+        ["@commons", "./src/commons"],
+        ["@styles", "./src/styles"],
+        ["@utils", "./src/utils"]
+      ]
+    }
+  }
+}

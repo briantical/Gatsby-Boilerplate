@@ -1,9 +1,15 @@
-import React from "react"
+import React from 'react';
 
-import "../styles/index.scss"
+import '@styles/index.scss';
 
 const Layout = ({ children }) => {
-  return <div>{children}</div>
-}
+  return (
+    <div>
+      <header>Some Header</header>
+      {children}
+      <footer>Some Footer</footer>
+    </div>
+  );
+};
 
-export default Layout
+export default Layout;
