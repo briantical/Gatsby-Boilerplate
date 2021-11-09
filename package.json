@@ -1,9 +1,10 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "gatsby_boilerplate",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Gatsby Boilerplate",
   "version": "0.1.0",
   "license": "0BSD",
+  "author": "Lutaaya Brian Ivan",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -26,12 +27,5 @@
     "eslint-config-react-app": "^6.0.0",
     "eslint-import-resolver-alias": "^1.1.2",
     "prettier": "^2.4.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
