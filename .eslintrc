@@ -2,7 +2,7 @@
   "globals": {
     "__PATH_PREFIX__": true
   },
-  "extends": ["react-app", "react-app/jest", "airbnb", "prettier"],
+  "extends": ["eslint:recommended", "plugin:react/recommended", "airbnb", "prettier"],
   "ignorePatterns": ["gatsby-browser.js", "gatsby-config.js", "gatsby-node.js"],
   "plugins": ["prettier"],
   "rules": {

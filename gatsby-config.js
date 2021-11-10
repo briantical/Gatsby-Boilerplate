@@ -1,5 +1,3 @@
-const path = require("path")
-
 module.exports = {
-  plugins: [`gatsby-plugin-sass`],
-}
+  plugins: [`gatsby-plugin-sass`, `gatsby-plugin-eslint`],
+};
