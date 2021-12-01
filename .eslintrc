@@ -22,6 +22,7 @@
     "import/resolver": {
       "alias": [
         ["@components", "./src/components"],
+        ["@containers", "./src/containers"],
         ["@layouts", "./src/layouts"],
         ["@commons", "./src/commons"],
         ["@styles", "./src/styles"],

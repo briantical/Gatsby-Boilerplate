@@ -3,11 +3,11 @@ import React from 'react';
 import '@styles/index.scss';
 
 const Layout = ({ children }) => (
-  <div>
+  <>
     <header className='text-primary'>Some Header</header>
-    {children}
+    <main>{children}</main>
     <footer>Some Footer</footer>
-  </div>
+  </>
 );
 
 export default Layout;
